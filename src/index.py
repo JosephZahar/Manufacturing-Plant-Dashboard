@@ -2,13 +2,13 @@ from dash import html, dcc, Dash
 from dash.dependencies import Input, Output
 
 # Connect to your src pages
-from pages import Composition, Comparative
+from src.pages import Composition, Comparative
 import dash_bootstrap_components as dbc
 
 # Connect the navbar to the index
-from components import navbar
-from pages.Comparative import comparative_dash
-from pages.Composition import composition_dash
+from src.components import navbar
+from src.pages.Comparative import comparative_dash
+from src.pages.Composition import composition_dash
 
 
 import pathlib
